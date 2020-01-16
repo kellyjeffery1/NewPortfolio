@@ -1,5 +1,7 @@
 {
   "name": "NewPortfolio",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "animejs": "^3.1.0"
+  }
 }
