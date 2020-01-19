@@ -24,7 +24,7 @@ $(document).ready(function(){
   var pinIntroScene = new ScrollMagic.Scene({
     triggerElement: '#intro',
     triggerHook: 0,
-    duration: '90%'
+    duration: '95%'
   })
   .setPin('#banner')
   .addTo(controller);
@@ -97,4 +97,35 @@ $(document).ready(function(){
 //     delay: 500
 //   });
 
+$(document).ready(function() {
+$(".down").click(function() {
+     $('html, body').animate({
+         scrollTop: $(".up").offset().top
+     }, 1500);
+ });
+});
+
+$(document).ready(function() {
+$(".up").click(function() {
+     $('html, body').animate({
+         scrollTop: $(".down").offset().top
+     }, 1000);
+ });
+});
+// -------------------------------------------
+$(document).ready(function() {
+$(".down2").click(function() {
+     $('html, body').animate({
+         scrollTop: $(".up2").offset().top
+     }, 1500);
+ });
+});
+
+$(document).ready(function() {
+$(".up2").click(function() {
+     $('html, body').animate({
+         scrollTop: $(".down2").offset().top
+     }, 1000);
+ });
+});
 

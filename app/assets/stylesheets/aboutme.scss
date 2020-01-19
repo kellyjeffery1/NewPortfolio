@@ -1,0 +1,39 @@
+.interests-text{
+  height: 350px;
+  width: 463px;
+  background-color: #EEE5E5;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+
+.interests-text:hover{
+  background: rgba(0,0,0,0.5);
+  color: #E5D6D5;
+  transition: all 1s;
+  text-decoration: none;
+}
+
+.profile-text{
+    height: 380px;
+    width: 458px;
+    background-color: #EEE5E5;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+    padding: 58px;
+}
+.profile-text:hover{
+  background: rgba(0,0,0,0.5);
+  color: #E5D6D5;
+  transition: all 1s;
+  text-decoration: none;
+}
+.aboutme-section{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #E8BD5A;
+  position: absolute;
+  width:  100%;
+  height: 160vh;
+  margin-top: 600vh;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  opacity: 0.9;
+}
