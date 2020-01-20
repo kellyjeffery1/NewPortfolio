@@ -1,39 +1,80 @@
-.interests-text{
-  height: 350px;
-  width: 463px;
-  background-color: #EEE5E5;
-  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
-  padding: 30px;
-}
-
-.interests-text:hover{
-  background: rgba(0,0,0,0.5);
-  color: #E5D6D5;
-  transition: all 1s;
-  text-decoration: none;
-}
-
-.profile-text{
-    height: 380px;
-    width: 458px;
-    background-color: #EEE5E5;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
-    padding: 58px;
-}
-.profile-text:hover{
-  background: rgba(0,0,0,0.5);
-  color: #E5D6D5;
-  transition: all 1s;
-  text-decoration: none;
-}
 .aboutme-section{
+  position: absolute;
   display: flex;
   flex-wrap: wrap;
   background-color: #E8BD5A;
-  position: absolute;
   width:  100%;
   height: 160vh;
   margin-top: 600vh;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
   opacity: 0.9;
+}
+.about-me{
+  font-weight: 100;
+  font-size: 10vh;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 65vh;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.interests-text{
+  margin-left: 60%;
+  height: 380px;
+  width: 460px;
+  background-color: #5E5B52;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  color: white;
+  text-decoration: none;
+}
+.interests-text:hover{
+  background: rgba(0,0,0,0.5);
+  color: white;
+  transition: all 1s;
+  text-decoration: none;
+}
+.swimming-image-1 {
+ margin-left: 70%;
+}
+.profile-text{
+  margin-left: 50%;
+  height: 380px;
+  width: 460px;
+  background-color: #5E5B52;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  color: white;
+  text-decoration: none;
+}
+.profile-text:hover{
+  background: rgba(0,0,0,0.5);
+  color: white;
+  transition: all 1s;
+  text-decoration: none;
+}
+.profile-image{
+ margin-left: 80%;
+}
+.skills-text{
+ margin-left: 90%;
+ height: 45vh;
+ width: 30vh;
+ background-color: #5E5B52;
+ box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+ padding: 40px;
+ color: white;
+ text-decoration: none;
+}
+.skills-text:hover{
+  background: rgba(0,0,0,0.5);
+  color: #E5D6D5;
+  transition: all 1s;
+  text-decoration: none;
+}
+.leWagon-image{
+  margin-left: 80%;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }

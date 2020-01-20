@@ -31,6 +31,8 @@
       <div class="line-seperator"></div>
     </div>
   </div>
+
+   <div class="row">
     <div class="col-6">
       <div id="project01" class="bookmark-container project">
         <a href="http://www.bkmthis.com/" class="bookmark-link">
@@ -47,6 +49,7 @@
         <%= image_tag("pic2.jpg", {:style => "height:500px;" "width:700px;"}) %>
       </div>
     </div>
+  </div>
 
   <div class="row">
     <div class="col-6">
@@ -74,9 +77,11 @@
   <div class="row">
     <div class="col-12">
       <h2 class="airbaby-title">AirBaby</h2>
-      <div class="line-seperator"></div>
+      <div class="airbaby-line-seperator"></div>
     </div>
+  </div>
 
+  <div class="row">
     <div class="col-6">
       <div id="project01" class="airbaby-container project">
         <div class='airbaby-text'>
@@ -110,50 +115,39 @@
   </div>
 </div>
 <!-- project 2 -->
+
+
  <!-- about me  -->
 <div class="aboutme-section">
-
+<!-- ----------------------- -->
   <div class="row">
-    <div class="col-12">
-      <h1 class="about-me">ABOUT ME</h1>
-        <a class="up" href="#"></a>
-        <a href="https://www.facebook.com/kelly.jeffery.37" class="profile-link">
-        <div id="project01" class="profile-container project">
-          <div class='profile-text'>
-            <h2 class="profile-heading">Profile</h2>
-            <p>I am a full-stack web developer looking to continue an exciting and challenging journey in the tech industry. Having been the 5x international open water swimmer champion of the Algarve and with 5+ years working in hospitality across England and Australia, I’ve become extremely determined, disciplined and driven. I’m ready to transfer those qualities into my tech career and continue to learn from others around me.</p>
-          </div>
-        </div>
-      </a>
-    </div>
-
-    <div class="col-6">
-      <div id="project01" class="profile-image project">
-        <%= image_tag("batch_319-15.jpg", {:style => "height:500px;" "width:700px;"}) %>
-      </div>
-    </div>
-
-    <div class="col-6">
-      <div id="project01" class="interests-container project">
-        <div class='interests-text'>
-          <h2 class="interests-heading">Interests</h2>
-          <p>Swimming-I am the previous 5x international open water champion of the Algarve and top 3 in the region for 800m freestyle. As well as being team captain for barnstaple swimming club for two years.<br><br>Traveling-
-             I traveled around Australia for a year and worked across the country as well as finding my passion for code along the way. During my time traveling I managed to overcome many barriers by my self and grow stronger from them.</p>
-        </div>
-      </div>
+    <div class="col">
+      <h1 class="about-me">About me</h1>
+      <a class="up" href="#"></a>
     </div>
   </div>
-  <!-- ------------------------------------------------- -->
-
+<!-- ---------------------- -->
   <div class="row">
-    <div class="col-6">
-      <div id="project01" class="swimming-image-1 project">
-        <%= image_tag("IMG_3549.jpg", {:style => "height:500px;" "width:700px;"}) %>
+
+    <div class="col-4">
+      <div id="project01" class="profile-container project">
+        <a href="https://www.facebook.com/kelly.jeffery.37" class="profile-link"></a>
+        <div class='profile-text'>
+          <h2 class="profile-heading">Profile</h2>
+          <p>I am a full-stack web developer looking to continue an exciting and challenging journey in the tech industry. Having been the 5x international open water swimmer champion of the Algarve and with 5+ years working in hospitality across England and Australia, I’ve become extremely determined, disciplined and driven. I’m ready to transfer those qualities into my tech career and continue to learn from others around me.</p>
+        </div>
       </div>
     </div>
 
-    <div class="col-6">
-      <div id="project01" class="project">
+      <div class="col-4">
+        <div id="project01" class="profile-image project">
+          <%= image_tag("batch_319-15.jpg", {:style => "height:400px;" "width:300px;"}) %>
+        </div>
+      </div>
+
+
+    <div class="col-4">
+      <div id="project01" class="interests-container project">
         <div class='interests-text'>
           <h2 class="interests-heading">Interests</h2>
           <p>Swimming-I am the previous 5x international open water champion of the Algarve and top 3 in the region for 800m freestyle. As well as being team captain for barnstaple swimming club for two years.<br><br>Traveling-
@@ -161,25 +155,63 @@
         </div>
       </div>
     </div>
+
+  </div>
+  <!-- ----------------------- -->
+ <div class="row">
+
+  <div class="col-4">
+    <div id="project01" class="swimming-image-1 project">
+       <%= image_tag("IMG_3549.jpg", {:style => "height:350px;" "width:390px;"}) %>
+    </div>
   </div>
 
-    <div class="col-6">
-      <div id="project01" class="leWagon-image project">
-        <%= image_tag("IMG_6011.jpg", {:style => "height:500px;" "width:700px;"}) %>
+  <div class="col-4">
+    <div id="project01" class="project">
+      <div class='skills-text'>
+        <h2 class="Skills-heading">Skills</h2>
+          <ul>
+            <li>Ruby on Rails</li>
+            <li>Relational databases, SQL, Postgres</li>
+            <li>ES6 Javascript</li>
+            <li>Test driven development</li>
+            <li>APIs. JSON, scraping</li>
+            <li>HTML, CSS\SCSS, Boostrap</li>
+            <li>Wireframes, prototyping, UI design</li>
+            <li>Git, Github, technical workflow</li>
+          </ul>
       </div>
     </div>
   </div>
 
+  <div class="col-4">
+    <div id="project01" class="leWagon-image project">
+      <%= image_tag("IMG_6011.jpg", {:style => "height:330px;" "width:430px;"}) %>
+    </div>
+  </div>
 
-</div>
+ </div>
+<!-- -------------------------------------------------------- -->
  <!-- about me -->
 
-
-
-
-
-
-
+<!-- footer -->
+<div class="footer">
+  <div class="row">
+    <div class="col">
+      <a class="up2 scroll" href="#">&uarr;</a>
+        <div class="container">
+          <div class="text-center">
+            <h2 class="footer-heading">Get in touch!</h2>
+            <p class="footer-text">Feel free to contact me on the following</p>
+            <a href="https://github.com/kellyjeffery1" target="_blank>" class="greyfont"><i class="fab fa-github-square mx-2"></i></a>
+            <a href="https://www.linkedin.com/in/kelly-jeffery-075b71177/" target="_blank>" class="greyfont"><i class="fab fa-linkedin mx-2"></i></a>
+            <a href='http://twitter.com/' target ="_blank" class="icon-grey greyfont"><i class="fab fa-twitter-square"></i></a>
+            <a href='http://instagram.com/' target ="_blank" class="icon-grey greyfont"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <!-- injections -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
