@@ -14,14 +14,13 @@
   font-size: 10vh;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   text-align: center;
-  margin-top: 100px;
-  margin-left: 65vh;
+  margin-top: 60px;
+  margin-left: 72vh;
   color: white;
   letter-spacing: 2px;
 }
 
 .interests-text{
-  margin-left: 60%;
   height: 380px;
   width: 460px;
   background-color: #5E5B52;
@@ -37,10 +36,10 @@
   text-decoration: none;
 }
 .swimming-image-1 {
- margin-left: 70%;
+ margin-left: 7%;
 }
 .profile-text{
-  margin-left: 50%;
+  margin-left: 7%;
   height: 380px;
   width: 460px;
   background-color: #5E5B52;
@@ -52,29 +51,46 @@
 .profile-text:hover{
   background: rgba(0,0,0,0.5);
   color: white;
-  transition: all 1s;
+  transition: all 0.7s;
   text-decoration: none;
 }
 .profile-image{
- margin-left: 80%;
+ margin-left: 25%;
 }
 .skills-text{
- margin-left: 90%;
- height: 45vh;
- width: 30vh;
- background-color: #5E5B52;
- box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
- padding: 40px;
- color: white;
- text-decoration: none;
+  height: 380px;
+  width: 430px;
+  background-color: #5E5B52;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  color: white;
+  text-decoration: none;
 }
 .skills-text:hover{
   background: rgba(0,0,0,0.5);
-  color: #E5D6D5;
-  transition: all 1s;
+  color: white;
+  transition: all 0.7s;
   text-decoration: none;
 }
 .leWagon-image{
-  margin-left: 80%;
+
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+}
+.rowing-image{
+ margin-left: 15%;
+}
+.education-text{
+  height: 420px;
+  width: 425px;
+  background-color: #5E5B52;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  color: white;
+  text-decoration: none;
+}
+.education-text:hover{
+  background: rgba(0,0,0,0.5);
+  color: white;
+  transition: all 0.7s;
+  text-decoration: none;
 }

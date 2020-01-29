@@ -12,8 +12,8 @@
           <span class="letters letters-3">Girl That Codes</span> -->
         </h1>
         <div class="button_option">
-          <a href="#" class="about-btn down">About</a>
-          <a href="#" class="contact-btn down2">Contact</a>
+          <a href="#" class="about-btn down p-2">About</a>
+          <a href="#" class="contact-btn down2 p-2">Contact</a>
         </div>
       </div>
      </div>
@@ -22,7 +22,7 @@
 <!-- banner -->
 
 <!-- project 1 -->
-<div class="project-container-1">
+<div id="project-container-1" class="project-container-1">
 
   <div class="row">
     <div class="col-12 ">
@@ -129,7 +129,7 @@
 <!-- ---------------------- -->
   <div class="row">
 
-    <div class="col-4">
+    <div class="col-3">
       <div id="project01" class="profile-container project">
         <a href="https://www.facebook.com/kelly.jeffery.37" class="profile-link"></a>
         <div class='profile-text'>
@@ -139,14 +139,14 @@
       </div>
     </div>
 
-      <div class="col-4">
+      <div class="col-3">
         <div id="project01" class="profile-image project">
           <%= image_tag("batch_319-15.jpg", {:style => "height:400px;" "width:300px;"}) %>
         </div>
       </div>
 
 
-    <div class="col-4">
+    <div class="col-3">
       <div id="project01" class="interests-container project">
         <div class='interests-text'>
           <h2 class="interests-heading">Interests</h2>
@@ -156,17 +156,24 @@
       </div>
     </div>
 
+    <div class="col-3">
+      <div id="project01" class="rowing-image project">
+        <%= image_tag("IMG_4228.jpg", {:style => "height:400px;" "width: 400px;"}) %>
+      </div>
+    </div>
+
+
   </div>
   <!-- ----------------------- -->
  <div class="row">
 
-  <div class="col-4">
+  <div class="col-3">
     <div id="project01" class="swimming-image-1 project">
        <%= image_tag("IMG_3549.jpg", {:style => "height:350px;" "width:390px;"}) %>
     </div>
   </div>
 
-  <div class="col-4">
+  <div class="col-3">
     <div id="project01" class="project">
       <div class='skills-text'>
         <h2 class="Skills-heading">Skills</h2>
@@ -184,11 +191,23 @@
     </div>
   </div>
 
-  <div class="col-4">
+  <div class="col-3">
     <div id="project01" class="leWagon-image project">
       <%= image_tag("IMG_6011.jpg", {:style => "height:330px;" "width:430px;"}) %>
     </div>
   </div>
+
+  <div class="col-3">
+      <div id="project01" class="education-container project">
+        <div class='education-text'>
+          <h2 class="education-heading">Education</h2>
+          <p>Le-Wagon<br>Le-Wagon Full Stack Ruby On Rails
+          9 week intensive coding bootcamp learning Ruby On Rails, HTML5, CSS/sass, Bootstrap, Javascript, JQuery. In the final three weeks, built two detailed web applications and presented these apps on weekly demos.<br><br>
+          Petroc college<br>Level 3 90 Credit Extend business diploma
+          Achieved a final grade of DDD* which is the equivalent to 3 A's at A level.</p>
+        </div>
+      </div>
+    </div>
 
  </div>
 <!-- -------------------------------------------------------- -->
@@ -198,7 +217,8 @@
 <div class="footer">
   <div class="row">
     <div class="col">
-      <a class="up2 scroll" href="#">&uarr;</a>
+     <a class="up2" href="#"></a>
+      <a id="back-to-top" href="#" class="scroll back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
         <div class="container">
           <div class="text-center">
             <h2 class="footer-heading">Get in touch!</h2>
@@ -212,6 +232,7 @@
       </div>
     </div>
   </div>
+
 
 <!-- injections -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
